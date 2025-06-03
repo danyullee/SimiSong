@@ -1,3 +1,10 @@
+import pandas as pd
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import StandardScaler
+from typing import List, Dict
+
 class AIRecommendationEngine:
     """Core AI engine for music recommendations"""
     
